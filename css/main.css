@@ -1,0 +1,158 @@
+*{
+    box-sizing: borer-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E5E9F2;
+    height: 73px;
+
+}
+
+.header-container{
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logo{
+    margin-right: 38px;
+    margin-top: 6px;
+}
+
+.nav{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    color: #18191f;
+    margin-right: 32px;
+}
+
+.nav-link{
+    margin-right: 32px;
+    color: #18191f;
+}
+
+.nav-link:hover{
+    color: #8c30f5;
+}
+
+.nav-link:active{
+    color: #5c08bd;
+}
+
+.nav-link:last-child{
+    margin-right: 0;
+}
+
+.google{
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.appstore-item{
+    margin-left: 12px;
+}
+
+.content{
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1.36;
+    margin: 0;
+    width: 540px;
+}
+
+.p-content{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 32px;
+}
+
+.main-container{
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    padding-top: 197px;
+    padding-bottom: 197px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.button{
+    background: #8C30F5;
+    border-radius: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 62px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 62px;
+    text-align: center;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+.button:active{
+    opacity: 0.7;
+}
+
+.footer{
+    color: #d9dbe1;
+    background: #0b0d17;
+    display: flex;
+    height: 72px;
+    align-items: center;
+}
+
+.footer-container{
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer-copyright{
+
+    font-size: 14px;
+    
+}
+
+.footer-socials-item{
+    margin-left: 16px; 
+}
+
+ 
